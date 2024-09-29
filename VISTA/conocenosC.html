@@ -1,1 +1,139 @@
 
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="../img/LogoPanaderiaCHAVO.png" />
+        
+        <!--==Title============================================================-->
+        <title>Conocenos Panadería CHAVO</title>
+        
+        <!--==Stylesheet=======================================================-->
+        <link rel="stylesheet" type="text/css" href="../css/style.css"/>
+        
+        <!--==Fav-icon=========================================================-->
+        <link rel="shortcut icon" href="images/fav-icon.png"/>
+        
+        <!--==Using-Font-Awesome-for-Icons=====================================-->
+        <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+        
+        <!--==Import-Poppins-Font-Family-From-Google-Font======================-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        
+        <!-- Link Swiper's CSS -->
+            <link
+              rel="stylesheet"
+              href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+            />
+        </head>
+
+    <body>
+        <nav class="navigation">
+   
+            <!--logo-->
+            <a class="logo"><i></i>Panadería CHAVO</a>
+            
+            <!--menu-btn-->
+            <input type="checkbox" class="menu-btn" id="menu-btn">
+            <label for="menu-btn" class="menu-icon">
+                <span class="nav-icon"></span>
+            </label>
+    
+            <!--menu-->
+            <ul class="menu">
+              <li><a href="../index.html">Inicio</a></li>
+              <li><a href="productosC.html">Productos</a></li>
+              <li><a href="conocenosC.html" class="active">Conócenos</a></li>
+              <li><a href="contactoC.html">Contacto</a></li>
+          </ul>
+    
+            <!--book-now-btn-->
+                <a href="https://wa.me/524561230035?text=Hola%20quiero%20realizar%20un%20pedido%20de..." target="_blank" class="book-now-btn">Ordenar</a>
+        </nav>
+
+        <section class="about">
+          <div class="main">
+            <img src="../img/ImgAboutUs.jpg" alt="imgPanaderiaCHAVO">
+            <div class="all-text">
+              <h4>CONÓCENOS</h4>
+              <p>
+                La “Panadería CHAVO” es una empresa pequeña que comenzó a operar hace cuatro años con el objetivo 
+                de ofrecer a la comunidad local una experiencia única en panadería, repostería y pizzería sobre pedido. 
+                Desde entonces, ha mantenido la escencia familiar, brindando atención personalizada 
+                y productos de alta calidad. 
+              </p>
+              
+              <div class="all-text1">
+                <h1>Pan Hecho Con Amor | Pan de Calidad</h1>
+              </div>
+              <div class="main-text1">
+                <a href="productosC.html">Ver Productos</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <footer>
+          <!--container**********************-->
+          <div class="footer-container">
+  
+               <!--**Footer-box*******************-->
+               <div class="footer-box">
+                <strong>Contacto</strong>
+                <span><i class="fas fa-map-marker-alt"></i>Elpidia Vera #10, Colonia Miravalle, Valle de Santiago.</span>
+                <span><i class="far fa-envelope"></i> <a href="mailto:panaderiachavo10@gmail.com?subject=Pedido%20de%20pan&body=Hola%2C%20quiero%20realizar%20un%20pedido%20de...%20">panaderiachavo10@gmail.com</a></span>
+                <span><i class="fas fa-phone-square-alt"></i><a href="https://wa.me/524561230035?text=Hola%20quiero%20realizar%20un%20pedido%20de..." target="_blank">456 123 0035 - 456 132 7045</a></span>
+            </div>
+
+             <!--footer-box********************-->
+             <div class="footer-box">
+                <br>
+                 <p>Síguenos en redes sociales</p>
+                 <div class="footer-social">
+                     <a href="https://www.facebook.com/profile.php?id=100083335622768">
+                         <i class="fab fa-facebook-f"></i>
+                     </a>
+                 </div>
+             </div>
+          </div>
+      </footer>
+        <span class="copyright">Panadería Chavo</span>
+    
+         <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    
+        <script type="text/javascript">
+             var swiper = new Swiper(".mySwipercard", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: {
+              el: ".swiper-pagination",
+              clickable: true,
+            },
+            breakpoints: {
+              640: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+              },
+              768: {
+                slidesPerView: 2,
+                spaceBetween: 40,
+              },
+              1024: {
+                slidesPerView: 3,
+                spaceBetween:20,
+              },
+            },
+          });
+    
+          var swiper = new Swiper(".mySwipertest", {
+            pagination: {
+              el: ".swiper-pagination",
+            },
+          });
+        </script>
+    </body>
+</html>
